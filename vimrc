@@ -9,6 +9,12 @@ set autoindent
 set smartindent
 set cindent
 
+" filetype specific indentation
+" no tab expansion in makefiles
+autocmd FileType make set noexpandtab
+" 8spaces for c files
+autocmd BufRead,BufNewFile *.c set shiftwidth=8
+
 "fix backspace
 set backspace=indent,eol,start
 
@@ -31,7 +37,6 @@ set pumheight=15
 let g:clang_complete_auto = 1
 " Show clang errors in the quickfix window
 let g:clang_complete_copen = 1
-
 
 if has("macunix")
 	let g:clang_library_path = '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib'
