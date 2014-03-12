@@ -1,6 +1,9 @@
 execute pathogen#infect()
 filetype plugin indent on
 
+"global mouse settings
+set mouse=a
+
 "global indentation
 set tabstop=8
 set expandtab
