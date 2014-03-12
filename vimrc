@@ -14,6 +14,7 @@ set cindent
 autocmd FileType make set noexpandtab
 " 8spaces for c files
 autocmd BufRead,BufNewFile *.c set shiftwidth=8
+autocmd BufRead,BufNewFile *.h,*.cpp set shiftwidth=2
 
 "fix backspace
 set backspace=indent,eol,start
