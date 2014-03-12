@@ -32,7 +32,6 @@ else
   colorscheme solarized
 endif
 
-
 " clang_complete options (disable preview scratch window)
 set completeopt=menu,menuone,longest
 " Limit popup menu height
@@ -48,3 +47,11 @@ elseif has("unix")
 	" Note. we expect libclang.so, and in case there is only a libclang.so.1 just create a symlink
 	let g:clang_library_path = '/usr/lib'
 endif
+
+"Supertab settings
+" SuperTab option for context aware completion
+"let g:SuperTabDefaultCompletionType = "context"
+"let g:SuperTabMappingForward = '<c-space>'
+"let g:SuperTabMappingBackward = '<s-c-space>'
+" let g:SuperTabMappingTabLiteral = '<Tab>'
+
