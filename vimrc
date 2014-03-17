@@ -4,6 +4,12 @@ filetype plugin indent on
 "global mouse settings
 set mouse=a
 
+"show line numbers
+set number
+
+" highlight the line and line number the cursor is on
+set cursorline
+
 "global indentation
 set tabstop=8
 set expandtab
