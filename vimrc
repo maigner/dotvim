@@ -54,6 +54,14 @@ elseif has("unix")
 	let g:clang_library_path = '/usr/lib'
 endif
 
+" Latex plugin
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats = 'pdf'
+let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
+let g:Tex_GotoError = 0
+let g:Tex_ViewRule_pdf = 'preview'
+
 "Supertab settings
 " SuperTab option for context aware completion
 "let g:SuperTabDefaultCompletionType = "context"
