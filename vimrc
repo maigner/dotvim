@@ -26,7 +26,7 @@ autocmd BufRead,BufNewFile *.c set shiftwidth=8
 autocmd BufRead,BufNewFile *.h,*.cpp set shiftwidth=2
 
 " Open Tagbar for source files
-autocmd BufRead,BufNewFile *.c,*.h,*.cpp,*.java TagbarToggle
+autocmd BufRead,BufNewFile *.c,*.h,*.cpp,*.java TagbarOpen
 
 
 "fix backspace
