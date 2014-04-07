@@ -23,10 +23,10 @@ set cindent
 autocmd FileType make set noexpandtab
 " 8spaces for c files
 autocmd BufRead,BufNewFile *.c set shiftwidth=8
-autocmd BufRead,BufNewFile *.h,*.cpp set shiftwidth=2
+autocmd BufRead,BufNewFile *.h,*.cpp,*.cc set shiftwidth=2 tabstop=2
 
 " Open Tagbar for source files
-autocmd BufRead,BufNewFile *.c,*.h,*.cpp,*.java TagbarOpen
+autocmd BufRead,BufNewFile *.c,*.h,*.cpp,*.java,*.cc TagbarOpen
 
 
 "fix backspace
