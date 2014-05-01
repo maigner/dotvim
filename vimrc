@@ -10,6 +10,9 @@ set number
 " highlight the line and line number the cursor is on
 set cursorline
 
+" set visual bell to get rid of beeping in Macvim
+set vb
+
 "global indentation
 set tabstop=8
 set expandtab
@@ -69,7 +72,7 @@ let g:Tex_ViewRule_pdf = 'preview'
 "Supertab settings
 " SuperTab option for context aware completion
 "let g:SuperTabDefaultCompletionType = "context"
-"let g:SuperTabMappingForward = '<c-space>'
-"let g:SuperTabMappingBackward = '<s-c-space>'
+let g:SuperTabMappingForward = '<c-space>'
+let g:SuperTabMappingBackward = '<s-c-space>'
 " let g:SuperTabMappingTabLiteral = '<Tab>'
 
